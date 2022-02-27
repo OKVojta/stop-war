@@ -26,6 +26,8 @@ Keep this script running. Share It!
 
 "See! The beacons of Gondor are alight, calling for aid. War is kindled. See, there is the fire on Amon Dîn, and flame on Eilenach; and there they go speeding west: Nardol, Erelas, Min-Rimmon, Calenhad, and the Halifirien on the borders of Rohan." - Gandalf | The Return of the King.
 
+!!! LIGHT UP YOUR BEACON !!!
+
 *************************************************************
-Executable .exe file is here: https://easyupload.io/lfcyh5
+Executable .exe file for Windows is here: https://easyupload.io/lfcyh5
 *************************************************************
