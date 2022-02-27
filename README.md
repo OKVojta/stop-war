@@ -2,7 +2,7 @@
 **************************************
 !!! STOP WAR !!! STOP RUSSIA !!!
 **************************************
-Python script
+Python 3.10 script
 
 This script will check listed websites until they begin to spread the truth:
 
@@ -24,5 +24,8 @@ https://sberbank.ru/
 Together, we can help to stop Vladimir Putin's regime, which kills innocent people. All Russian official news websites are fake and best solution is to shut them down!
 Keep this script running. Share It!
 
-*************************************
-Executable .exe file here: 
+"See! The beacons of Gondor are alight, calling for aid. War is kindled. See, there is the fire on Amon Dîn, and flame on Eilenach; and there they go speeding west: Nardol, Erelas, Min-Rimmon, Calenhad, and the Halifirien on the borders of Rohan." - Gandalf | The Return of the King.
+
+*************************************************************
+Executable .exe file is here: https://easyupload.io/lfcyh5
+*************************************************************
