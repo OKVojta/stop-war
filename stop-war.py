@@ -73,28 +73,21 @@ def job1():
     #with requests.Session() as s:
     for url in urls:
         try:
-            #r = s.get(url, headers=headers, timeout=10)
             response = requests.get(url, headers=headers, timeout=Intensity)           
         except requests.ConnectionError:
             response = ""
             ErrorCounter_1 = ErrorCounter_1 + 1
-            #print("URL SHUTDOWN! - Connection Timeout Error caught!" + url)
             print("IS DOWN URL: "+url + "" +" | URL Hit Counter: " + str(Counter_1) +" | URL Shutdown/Error Counter: " + str(ErrorCounter_1) + " | TIME: " +str(datetime.now()))
         except HTTPError as http_error: 
-            #print("URL SHUTDOWN! - HTTP Error caught!" + http_error + url)
             print("IS DOWN URL: "+url + "" +" | URL Hit Counter: " + str(Counter_1) +" | URL Shutdown/Error Counter: " + str(ErrorCounter_1) + " | TIME: " +str(datetime.now()))
             ErrorCounter_1 = ErrorCounter_1 + 1
         except URLError as url_error: 
-            #print("URL SHUTDOWN! - URL Error caught!" + url)
             print("IS DOWN URL: "+url + "" +" | URL Hit Counter: " + str(Counter_1) +" | URL Shutdown/Error Counter: " + str(ErrorCounter_1) + " | TIME: " +str(datetime.now()))
             ErrorCounter_1 = ErrorCounter_1 + 1
         except (requests.exceptions.RequestException, ValueError) as e:
-            #print("URL SHUTDOWN! - Unspecified Connection Error caught! " + url) 
-            #print(e)
             print("IS DOWN URL: "+url + "" +" | URL Hit Counter: " + str(Counter_1) +" | URL Shutdown/Error Counter: " + str(ErrorCounter_1) + " | TIME: " +str(datetime.now()))
             ErrorCounter_1 = ErrorCounter_1 + 1
         else: 
-            #soup = BeautifulSoup(r.text, 'html.parser') 
             Counter_1 = Counter_1 + 1
             print("HIT URL: "+url + "" +" | URL Hit Counter: " + str(Counter_1) +" | URL Shutdown/Error Counter: " + str(ErrorCounter_1) + " | TIME: " +str(datetime.now()))
 
