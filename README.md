@@ -29,5 +29,5 @@ Keep this script running. Share It!
 !!! LIGHT UP YOUR BEACON !!!
 
 *************************************************************
-Executable .exe file for Windows is here: https://github.com/OKVojta/stop-war/blob/main/stop-war.exe
+Executable .exe file for Windows is here: https://github.com/OKVojta/stop-war/raw/main/stop-war.exe
 *************************************************************
