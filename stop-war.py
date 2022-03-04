@@ -9,7 +9,8 @@ from urllib.error import URLError
 from urllib.error import HTTPError
 import os
 
-# Global variable declaration
+# Global variable declaration2
+
 
 Intensity = 1
 
